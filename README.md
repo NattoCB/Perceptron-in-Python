@@ -1,12 +1,12 @@
 ## Perceptron Implementation ## 
 
-                                      Author: Siyu Fang 
-                                      University of Liverpool
+								      Author: Siyu Fang 
+								      University of Liverpool
 
-                                      Python version: 3.0
-                                      Matplotlib version: 3.0.3
-                                      Numpy version: 1.16.2
-                                      IDE: Sublime Text
+								      Python version: 3.0
+								      Matplotlib version: 3.0.3
+								      Numpy version: 1.16.2
+								      IDE: Sublime Text
 
 # 1. PLA and visualisation
 
@@ -96,9 +96,6 @@ trainSet_a,testSet_a = batchLoad('a') # only for classifier(a), but samiliar to 
 
 maxIter = 20
 
-'''
-        Classifier_a
-                        '''
 Classifier_a = PLA(trainSet_a,testSet_a)
 # train
 Classifier_a.train(maxIter) 
@@ -106,7 +103,6 @@ Classifier_a.train(maxIter)
 Classifier_a.test()
 # output result
 output(Classifier_a,'a')
-
 
 ```
 
