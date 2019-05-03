@@ -1,7 +1,6 @@
 ## Perceptron Implementation ## 
 
-								      Author: Siyu Fang 
-								      University of Liverpool
+								      Author: Jasper Fang
 
 								      Python version: 3.0
 								      Matplotlib version: 3.0.3
